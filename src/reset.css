@@ -57,6 +57,12 @@ picture {
   display: block;
 }
 
+/* Make iframes responsive and remove default borders */
+iframe {
+  max-width: 100%;
+  border: 0;
+}
+
 /* Natural flow and rhythm in articles by default */
 article > * + * {
   margin-top: 1em;
