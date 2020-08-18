@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
 /* Remove default margin */
 body,
 h1,
@@ -39,9 +33,11 @@ body {
   line-height: 1.5;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
+/* Remove default padding and list styles
+   on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
+  padding: 0;
   list-style: none;
 }
 
@@ -55,6 +51,12 @@ img,
 picture {
   max-width: 100%;
   display: block;
+}
+
+/* Make iframes responsive and remove default borders */
+iframe {
+  max-width: 100%;
+  border: 0;
 }
 
 /* Natural flow and rhythm in articles by default */
